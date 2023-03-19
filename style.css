@@ -1,10 +1,17 @@
+body{
+
+}
+
 .tradingCard {
+background-color: #1E1E24;
+color: white;
 width: 310px;
 border: 3px solid burlywood ;
-box-shadow: 6px 6px 1px 0px gray;
+box-shadow: 6px 6px 1px 0px  #292933;
 padding-right: .2em;
 padding-left: .7em ;
 padding-bottom: .6em;
+line-height: 25px;
 }
 
 .animalPicture {
@@ -15,19 +22,20 @@ padding-bottom: .6em;
 
 .infoBox{
   width: 280px;
-  border: px solid burlywood;
   padding-right: .5em;
   padding-left: .5em;
 }
+
 .about{
   padding-bottom: 0.5em;
 }
 
 .list-info{
-  border: 2px solid burlywood ;
+  border: 2px solid #FFCF99;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  line-height:  25px;
 }
 
 span{
